@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 from helpers import utils
 
-URL = 'https://www.dropbox.com/scl/fi/9yz9g7924nxwb8lmuazqw/results.zip?rlkey=h5ftdfyih8ve5awht4padsv0s&st=t0ozrq3i&dl=1'
+URL = 'https://www.dropbox.com/scl/fi/p82gyux7d41noy7qpslhf/results.zip?rlkey=hc67ci0t5tpqfxz5oawvsvbvm&e=1&st=al7yj0z1&dl=0'
 DESTINATION = utils.ROOT_FOLDER
 
 
