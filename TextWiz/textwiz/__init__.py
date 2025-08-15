@@ -124,13 +124,16 @@ GOOD_CODERS = (
 
 NEW_CODERS = (
     'qwen2.5-coder-32B-instruct',
+    'qwen3-coder-30B-instruct',
     'codegemma-7B-instruct',
     'deepseek-coder-33B-instruct',
     'qwen2.5-coder-32B',
     'codegemma-7B',
     'deepseek-coder-33B',
     'star-coder-2-15B',
-    'star-chat-2-instruct'
+    'star-chat-2-instruct',
+    'code-llama-70B-instruct',
+    'code-llama-34B-instruct',
 )
 
 NEW_CODERS_CHAT = (
@@ -138,7 +141,9 @@ NEW_CODERS_CHAT = (
     'codegemma-7B-instruct',
     'deepseek-coder-33B-instruct',
     'star-chat-2-instruct',
-    'qwen3-coder-30B-instruct'
+    'qwen3-coder-30B-instruct',
+    'code-llama-70B-instruct',
+    'code-llama-34B-instruct',
 )
 
 
