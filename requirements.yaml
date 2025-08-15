@@ -1,0 +1,37 @@
+name: llm
+channels:
+  - nvidia # need to specify this as first channel to go grab the dependencies of pytorch-cuda correctly
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11.3
+  - conda
+  - pip
+  - pytorch::pytorch=2.3.1 # use pytorch channel
+  - pytorch::pytorch-cuda=12.1 # Remove this line if your hardware does not support cuda, otherwise it will create conflicts
+  - nvidia/label/cuda-12.1.0::cuda-nvcc # Needed for flash-attn! Remove this line if your hardware does not support cuda, otherwise it will create conflicts
+  - numpy=1.24.3
+  - matplotlib=3.7.1
+  - seaborn=0.12.2
+  - pandas=2.0.2
+  - pip:
+    # - transformers==4.33.1
+    # - git+https://github.com/Cyrilvallez/transformers.git@logits-dtype
+    - transformers
+    - tokenizers
+    - huggingface-hub
+    - accelerate
+    - optimum
+    - gradio>=4.0.0
+    - peft
+    - bitsandbytes
+    - sentencepiece
+    - protobuf
+    - tiktoken
+    - tensorboard
+    - semgrep==1.51.0 # For Meta's insecure code detector
+    # For flash attention 2
+    - packaging
+    - ninja
+    # needs to be run afterwards with the flag
+    # pip install flash-attn --no-build-isolation
