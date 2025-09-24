@@ -109,6 +109,12 @@ Here is a quick list and description of the remaining scripts.
 
 The script `reformulations.py` was used to create the prompt variations of the AATK-Instruct dataset for different models. In turn, `perplexity.py` was used to save the perplexity of each of those prompts with a given reference model to compute PE scores and ME scores.
 
+### CVSS score extraction
+
+The script `aggregate_cvss.py` was used to extract the CVSS scores and aggregate them. For the extraction, one first needs to download the raw JSON file from [here](https://nvd.nist.gov/vuln/data-feeds#divJson20Feeds).
+
 ### Python code extractor
 
 Finally, the file `python_extractor.py` is designed to parse Python code blocks from text files (model outputs).
+
+
