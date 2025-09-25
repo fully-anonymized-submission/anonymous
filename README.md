@@ -1,6 +1,6 @@
 # From Model to Breach: Towards Systematic LLM-Generated Vulnerabilities Reporting
 
-This is the repository containing the code for the paper: _From Model To Breach: Towards Systematic LLM-Generated Vulnerabilities Reporting_.
+This is the repository containing the code for the paper: _From Model To Breach: Towards Actionable LLM-Generated Vulnerabilities Reporting_.
 
 ## Install
 
